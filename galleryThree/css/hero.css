@@ -1,0 +1,43 @@
+.hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(8, 173, 108, 0.8)), to(rgba(8, 173, 108, 0.8))), url(../img/3.jpg);
+  background-image: linear-gradient(to bottom, rgba(8, 173, 108, 0.8), rgba(8, 173, 108, 0.8)), url(../img/3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 980px;
+  height: 378px;
+  margin: 0 auto;
+  position: relative;
+  color: #08AD69;
+  font-family: GillSansB;
+}
+.hero .hero-title {
+  position: absolute;
+  bottom: 20px;
+}
+.hero .hero-title .title-i {
+  font-size: 300px;
+  line-height: 0;
+}
+.hero .hero-title .title-food {
+  font-size: 140px;
+  line-height: 0;
+}
+
+.wrapper {
+  max-width: 980px;
+  min-height: 200px;
+  margin: 0 auto;
+  font-family: GillSansB;
+}
+.wrapper .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wrapper .column {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 10px;
+}

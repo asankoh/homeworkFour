@@ -1,0 +1,45 @@
+nav{
+    max-width: 980px;
+    height: 90px;
+    margin: 0 auto;
+    border-bottom: solid 2px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav span {
+    position: absolute;
+    bottom: -5px;
+    color: #000;
+    font-family: GillSansB;
+    font-size: 20px;
+    right: -10px;
+  }
+  
+  .logo{
+    position: relative;
+    width: 92px;
+    height: 42px;
+    border: solid 2px #000 ;
+  }
+  
+  .links {
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+  
+  }
+  
+  .links a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    color: #000;
+    font-family: GillSansB;
+  
+  }
+  
+  a span {
+    color: #000;
+  }

@@ -1,0 +1,104 @@
+.gallery{
+    max-width: 980px;
+    min-height: 378px;
+    margin: 0 auto 0 auto;
+    padding-bottom: 20px;
+
+    span{
+        font-size: 25px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        border-bottom: solid 2px #000;
+        position: absolute;
+        top: 80px;
+
+
+    }
+    .gallery-images{
+    margin-top: 50px;
+
+    
+    .rowOne{
+
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-bottom: 20px;
+
+
+        .imageOne{
+            width: 489px;
+            height: 187px;
+            background-image: linear-gradient(rgba(255, 209, 64, 0.7), 
+            rgba(255, 209, 64, .7))
+            ,url(../img/1.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+       
+
+
+        }
+
+        .imageTwo{
+            width: 187px;
+            height: 187px;
+            background-image: linear-gradient(rgba(238, 67, 103, 0.7), 
+            rgba(238, 67, 103, .7))
+            ,url(../img/2.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+
+
+
+        }
+
+        .imageThree{
+            width: 265px;
+            height: 187px;
+            background-image: linear-gradient(rgba(8, 173, 105, 0.7), 
+            rgba(8, 173, 105, .7))
+            ,url(../img/3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+
+
+
+        }
+    }
+
+    .rowTwo{
+
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+
+
+        .imageFour{
+            width: 603px;
+            height: 306px;
+            background-image: linear-gradient(rgba(84, 13, 110, 0.7), 
+            rgba(84, 13, 110, .7))
+            ,url(../img/4.jpg);
+
+        }
+
+        .imageFive{
+            width: 355px;
+            height: 306px;
+            background-image: linear-gradient(rgba(59, 206, 171, 0.7), 
+            rgba(59, 206, 171, .7))
+            ,url(../img/5.png);
+
+        }
+
+
+    }
+}
+}
+

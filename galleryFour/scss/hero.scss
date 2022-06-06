@@ -1,0 +1,48 @@
+.hero{
+  background-image: linear-gradient(rgba(84, 13, 110, 0.7), 
+  rgba(84, 13, 110, .7))
+  ,url(../img/4.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 980px;
+  height: 378px;
+  margin: 0 auto;
+  position: relative;
+  color: #540D6E;
+  font-family: GillSansB;
+
+
+  .hero-title{
+    position: absolute;
+    bottom: 20px;
+
+    .title-i{
+      font-size: 300px;
+      line-height: 0;
+    }
+
+    .title-food{
+      font-size: 115px;
+      line-height: 0;
+    }
+  }
+  
+}
+
+.wrapper{
+  max-width: 980px;
+  min-height: 200px;
+  margin: 0 auto;
+  font-family: GillSansB;
+
+
+  .row{
+    display: flex;
+  }
+
+  .column{
+    flex: 1;
+    padding: 10px;
+  }
+}

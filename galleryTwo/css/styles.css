@@ -1,0 +1,263 @@
+nav {
+  max-width: 980px;
+  height: 150px;
+  margin: 0 auto;
+  border-bottom: solid 2px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav span {
+  position: absolute;
+  bottom: -5px;
+  color: #000;
+  font-family: GillSansB;
+  font-size: 20px;
+  right: -10px;
+}
+
+.logo {
+  position: relative;
+  width: 92px;
+  height: 42px;
+  border: solid 2px #000;
+}
+
+.links {
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.links a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  color: #000;
+  font-family: GillSansB;
+}
+
+a span {
+  color: #000;
+}
+
+.hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(238, 67, 103, 0.8)), to(rgba(238, 67, 103, 0.8))), url(../img/2.jpeg);
+  background-image: linear-gradient(to bottom, rgba(238, 67, 103, 0.8), rgba(238, 67, 103, 0.8)), url(../img/2.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 980px;
+  height: 378px;
+  margin: 0 auto;
+  position: relative;
+  color: #ee4367;
+  font-family: GillSansB;
+}
+.hero .hero-title {
+  position: absolute;
+  bottom: 20px;
+}
+.hero .hero-title .title-i {
+  font-size: 300px;
+  line-height: 0;
+}
+.hero .hero-title .title-food {
+  font-size: 140px;
+  line-height: 0;
+}
+
+.wrapper {
+  max-width: 980px;
+  min-height: 200px;
+  margin: 0 auto;
+  font-family: GillSansB;
+}
+.wrapper .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.wrapper .column {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 10px;
+}
+
+footer {
+  height: 455px;
+  background-color: #ee4367;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .footer-content {
+  width: 400px;
+  text-align: center;
+  font-family: GillSansReg;
+}
+footer .footer-content .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  width: 92px;
+  height: 42px;
+  border: solid 2px #fff;
+}
+footer .footer-content .logo span {
+  color: #fff;
+  font-family: GillSansReg;
+  font-size: 20px;
+}
+footer .footer-content h2 {
+  color: #fff;
+  font-size: 16px;
+  padding-top: 50px;
+}
+footer .footer-content .number {
+  color: #fff;
+  font-size: 16px;
+  margin-top: -10px;
+}
+footer .footer-content .email {
+  color: #fff;
+  font-size: 16px;
+  margin-top: -10px;
+}
+footer .footer-content .copyright {
+  color: #fff;
+  font-size: 16px;
+}
+footer .footer-content i {
+  color: #fff;
+  font-size: 30px;
+  padding: 15px;
+}
+footer .signup {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .signup input {
+  width: 529px;
+  height: 100%;
+  background-color: #f56b88;
+  border: none;
+  color: rgba(238, 67, 103, 0.8);
+  font-size: 16px;
+  padding-left: 15px;
+}
+footer .signup ::-webkit-input-placeholder {
+  color: rgb(238, 67, 103);
+}
+footer .signup ::-moz-placeholder {
+  color: rgb(238, 67, 103);
+}
+footer .signup :-ms-input-placeholder {
+  color: rgb(238, 67, 103);
+}
+footer .signup ::-ms-input-placeholder {
+  color: rgb(238, 67, 103);
+}
+footer .signup ::placeholder {
+  color: rgb(238, 67, 103);
+}
+footer .signup .button {
+  height: 100%;
+  width: 167px;
+  background-color: #fff;
+  color: #ee4367;
+}
+
+@media (max-width: 800px) {
+  .footer-content {
+    font-size: 15px;
+    margin: 0 auto;
+  }
+
+  .logo .span {
+    margin: 0 auto;
+  }
+  .logo .signup {
+    margin: 0 auto;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: GillSansReg;
+  src: url(fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: GillSansB;
+  src: url(fonts/GillSansBold.otf);
+}
+@font-face {
+  font-family: GillSansI;
+  src: url(fonts/GillSansItalic.otf);
+}
+@font-face {
+  font-family: GillSansBI;
+  src: url(fonts/GillSansBoldItalic.otf);
+}
+@font-face {
+  font-family: PTSerif;
+  src: url(fonts/PTSerif-Regular.ttc);
+}
+@font-face {
+  font-family: PTSerif-I;
+  src: url(fonts/PTSerif-Italic.ttf);
+}
+@font-face {
+  font-family: PTSerif-BI;
+  src: url(fonts/PTSerif-BoldItalic.ttf);
+}
+@font-face {
+  font-family: PTSerif-B;
+  src: url(fonts/PTSerif-Bold.ttf);
+}
