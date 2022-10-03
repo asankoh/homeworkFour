@@ -9,7 +9,7 @@ function initListeners() {
     
 } 
 
-function route(){
+/*function route(){
     let hashTag = window.location.hash;
     let pageID = hashTag.replace("#", "");
 
@@ -24,7 +24,7 @@ function route(){
 function initApp(){
     $(window).on("hashchange", route);
     route();
-    }
+    } */
 
     function init(){
         $("#submit").on("click", function (e){
@@ -34,7 +34,7 @@ function initApp(){
         
         if(un != "" && pw != ""){
             alert("Log-in Process Successful!")
-            window.location.href = ("/home.html")
+            window.location.href = ("https://in-info-web4.informatics.iupui.edu/~asankoh/homeworkFour/home.html")
         } else{
             alert("Enter either your username or password.")
         }
@@ -43,7 +43,7 @@ function initApp(){
 
 
 $(document).ready(function () {
-initApp()
+// initApp()
 init();
 initListeners();
 });
