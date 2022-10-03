@@ -8,7 +8,7 @@ function initListeners() {
     
 } 
 
-function route(){
+/* function route(){
     let hashTag = window.location.hash;
     let pageID = hashTag.replace("#", "");
 
@@ -23,7 +23,7 @@ function route(){
 function initApp(){
     $(window).on("hashchange", route);
     route();
-    } 
+    }  */
 
     function init(){
         $("#submit").on("click", function (e){
