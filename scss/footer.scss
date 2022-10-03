@@ -1,0 +1,28 @@
+footer{
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    border-top: 2px solid black;
+
+    .footer-content{
+        width: 900px;
+        color: black;
+        
+        h3{
+            padding-top: 20px;
+            font-family: GillsBold;
+        }
+
+        p{
+            font-family: GillsReg;
+        }
+
+        i{
+            font-size: 24px;
+            padding: 0 10px;
+        }
+    }
+}
